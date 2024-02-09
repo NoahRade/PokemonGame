@@ -15,7 +15,7 @@ public class TileManager {
     public Tile[][] tileArray;
     GamePanel gp;
     String filePath = new File("").getAbsolutePath();
-    int mapWidth = 24, mapHeight = 28;
+    int mapWidth = 24, mapHeight = 14;
 
     public TileManager(GamePanel gp) {
         this.gp = gp;

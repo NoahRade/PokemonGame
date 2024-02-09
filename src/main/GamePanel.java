@@ -58,11 +58,10 @@ public class GamePanel extends JPanel implements Runnable {
         while (gameThread != null) {
             if (keyH.fastForward) {
                 FPS = 128;
-                drawInterval = 1000 / FPS;
             } else {
                 FPS = 32;
-                drawInterval = 1000 / FPS;
             }
+            drawInterval = 1000 / FPS;
             update();
 
             repaint();
